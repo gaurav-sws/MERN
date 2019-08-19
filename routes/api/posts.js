@@ -5,4 +5,5 @@ router.get("/", (req, res) => {
   res.send("Post Route");
 });
 
+console.log("New Branch added");
 module.exports = router;
